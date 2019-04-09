@@ -28,7 +28,7 @@ generate .csv file for the stored roll numbers
 ```
 
 ### Image Format
-- db -> create a folder with all the student id images as in the id card/ student profile. Image name should be the roll number with the image extension.
+- Create a folder with all the student id images as in the id card/ student profile. Image name should be the roll number with the image extension.
 
 ### How to Use?
 - First, run the 'encoder.py' file to find 'face encodings' of all the student profile images in 'db' directory. The output is stored as a pickle file in the specified path.
