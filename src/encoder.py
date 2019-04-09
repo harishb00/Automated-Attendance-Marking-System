@@ -20,11 +20,11 @@ for image_name in image_names:
   #find the facial encoding of the image
   encoding = fr.face_encodings(image)[0]
   
-  #get the reg_no of the image
+  #get the roll number from the image
   #[:-4] changes 1054.jpg to 1054 . It removes last 4 characters '.jpg'. According to your extension length, modify it.
   reg_no = image_name[:-4] 
   
-  #add the encoding to the dictionary with reg_no as the key
+  #add the encoding to the dictionary with roll number as the key
   encodings[reg_no] = encoding
   
 fh = open('encodings.pickle', 'wb')
