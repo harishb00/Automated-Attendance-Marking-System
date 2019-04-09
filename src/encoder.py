@@ -2,8 +2,7 @@ import os
 import pickle
 import face_recognition as fr
 
-#Access the directories which holds the db and Test Images
-
+#Access the directory which holds the student profile images
 base_dir = 'assets/'
 db_dir = os.path.join(base_dir, 'student_images')
 
